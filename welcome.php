@@ -22,6 +22,8 @@
   </div>
 </nav>
 
+
+
 		<div class="alert alert-success" role="alert">
   <h4 class="alert-heading">Well done <?php echo $_POST["email"]; ?>!</h4>
   <p>You've successfully tested my first php form. I know I know, it's really simple but um.. I'm learning so.... <?= $_POST['email']; ?></p>
