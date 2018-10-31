@@ -6,13 +6,7 @@
 				$email = $_POST['email'];
 				$isVisible = 'style=\'display:block\'';
 				header("Location: welcome.php"); 
-				exit;/* Redirect browser */
-
-/* Make sure that code below does not get executed when we redirect. */
-//exit;
-				/*var_dump($_POST['email']);
-				$_POST = array();
-*/				//$_POST['email'] = null;
+				exit;/
 			}
 		}
 		/*echo $_POST['email'];
